@@ -29,6 +29,77 @@
       display: block;
     }
 
+
+
+    
+/* Community Support */
+
+.support-section {
+  background: linear-gradient(135deg, #0f4c81, #123f66);
+  color: white;
+}
+
+.support-box {
+  background: rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 50px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.support-box h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f5b301;
+}
+
+.support-box p {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 35px 0;
+}
+
+.support-card {
+  background: rgba(255,255,255,0.12);
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.18);
+}
+
+.support-card i {
+  font-size: 2rem;
+  color: #f5b301;
+  margin-bottom: 15px;
+}
+
+.donation-box {
+  background: white;
+  color: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.donation-box h3 {
+  color: #0f4c81;
+  margin-bottom: 15px;
+}
+
+.donation-box p {
+  margin-bottom: 10px;
+  }
     .container {
       width: 90%;
       max-width: 1200px;
@@ -396,6 +467,7 @@
         <li><a href="#clubs">Clubs</a></li>
         <li><a href="#admissions">Admissions</a></li>
         <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#support">Support Us</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -644,7 +716,87 @@
       </div>
     </div>
   </section>
+<!-- Community Support -->
 
+<section class="support-section" id="support">
+  <div class="container">
+    <div class="support-box">
+
+      <div class="section-title">
+        <h2 style="color:white;">Support Our Community School</h2>
+        <p style="color:#e2e8f0;">
+          Together we can transform lives through education
+        </p>
+      </div>
+
+      <p>
+        Victory Community School is a community-based institution committed to
+        providing quality education, nurturing talents, and empowering learners
+        from all backgrounds.
+      </p>
+
+      <p>
+        We humbly invite well-wishers, alumni, organizations, churches,
+        community leaders, and friends of education to partner with us in
+        building a brighter future for our learners.
+      </p>
+
+      <p>
+        Your support helps us improve learning facilities, provide educational
+        materials, support vulnerable learners, and create a safe and inspiring
+        environment for academic excellence.
+      </p>
+
+      <div class="support-grid">
+
+        <div class="support-card">
+          <i class="fa-solid fa-user-graduate"></i>
+          <h3>Sponsor a Learner</h3>
+          <p>Support school fees, uniforms, and learning resources.</p>
+        </div>
+
+        <div class="support-card">
+          <i class="fa-solid fa-book"></i>
+          <h3>Donate Learning Materials</h3>
+          <p>Books, stationery, computers, and classroom resources.</p>
+        </div>
+
+        <div class="support-card">
+          <i class="fa-solid fa-building"></i>
+          <h3>Support Infrastructure</h3>
+          <p>Help improve classrooms, sanitation, and school facilities.</p>
+        </div>
+
+        <div class="support-card">
+          <i class="fa-solid fa-handshake"></i>
+          <h3>Partner With Us</h3>
+          <p>Join hands with us in community and educational projects.</p>
+        </div>
+
+      </div>
+
+      <div class="donation-box">
+        <h3>M-Pesa Donation Details</h3>
+
+        <p><strong>Paybill Number:</strong> 000000</p>
+        <p><strong>Account Name:</strong> Victory Community School</p>
+        <p><strong>Contact:</strong> +254 700 000 000</p>
+
+        <br>
+
+        <p>
+          No contribution is too small. Your generosity can make a lasting
+          difference in the lives of our learners.
+        </p>
+
+        <a href="#contact" class="btn btn-secondary">
+          Become a Support Partner
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
   <!-- Contact -->
 
   <section id="contact">
